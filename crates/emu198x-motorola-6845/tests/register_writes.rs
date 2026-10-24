@@ -1,6 +1,6 @@
 //! Register widths and access permissions: Motorola 1977 Table 2, PDF p. 11;
 //! Hitachi U70-A (1987), printed p. 147 / PDF p. 158.
-use motorola_6845::{Crtc6845, Crtc6845Variant};
+use emu198x_motorola_6845::{Crtc6845, Crtc6845Variant};
 
 const VARIANTS: [Crtc6845Variant; 2] = [Crtc6845Variant::Mc6845, Crtc6845Variant::Hd6845s];
 

@@ -1,7 +1,7 @@
 //! Pulse lengths are measured at the public pins, in elapsed character clocks.
 //! Sources: Motorola MC6845 (1977), PDF p. 12; Hitachi U70-A (1987),
 //! printed p. 148 / PDF p. 159. See the shared 6845 primary reference.
-use motorola_6845::{Crtc6845, Crtc6845Variant};
+use emu198x_motorola_6845::{Crtc6845, Crtc6845Variant};
 
 const VARIANTS: [Crtc6845Variant; 2] = [Crtc6845Variant::Mc6845, Crtc6845Variant::Hd6845s];
 
